@@ -6,8 +6,9 @@ interface Product {
   name: string;
   description: string;
   price: number;
-  formattedPrice: string;
+  formattedValue: number;
   thumbnail_url: string;
+  formattedPrice: number;
 }
 
 export const Container = styled.View`
